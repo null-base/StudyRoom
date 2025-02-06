@@ -1,0 +1,21 @@
+name: TutorialPluguin
+version: '${version}'
+main: com.nullbase.tutorialpluguin.TutorialPluguin
+api-version: '1.20'
+description: "§eチュートリアル用のプラグインです。"
+author: null_base
+website: null-base.com
+
+commands:
+  debug:
+    usage: "/<command> <text>"
+    description: "デバッグ用のコマンドです"
+    permission: "tutorialpluguin.command.debug"
+  sum:
+    usage: "/<command> <number> <number>"
+    description: "足し算用のコマンドです"
+    permission: "tutorialpluguin.command.sum"
+  gui:
+    useage: "/<command>"
+    description: "チェストGUIを開きます"
+    permission: "tutorialpluguin.command.gui"
